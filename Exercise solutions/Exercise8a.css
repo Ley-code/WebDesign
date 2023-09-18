@@ -1,0 +1,21 @@
+.google-icon{
+    display: block;
+    width: 200px;
+    margin-left: 200px;
+    margin-bottom: 0px;
+}
+.search{
+    width: 300px;
+    font-size: 20px;
+    vertical-align: 10px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(228, 228, 228);
+    border-width: 2px;
+    margin-left: 75px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right:200px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+}
