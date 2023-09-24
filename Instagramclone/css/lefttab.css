@@ -1,0 +1,42 @@
+.lefttab-div{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 240px;
+    border-right: solid;
+    border-right-width: 1px;
+    border-right-color: rgb(51, 50, 50);
+    padding-top: 40px;
+}
+.instagram-button-holder{
+    padding-left: 30px;
+}
+.middle-buttons-holder{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.each-button{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    flex-direction: row;
+    padding-top: 8px;
+
+}
+.left-tab-paragraph{
+    padding-left: 15px;
+    padding-top: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.left-tab-button-style{
+    padding-left: 3px;
+    display: flex;
+    align-items: center;
+    width: 210px;
+    background-color: lightcoral;
+}

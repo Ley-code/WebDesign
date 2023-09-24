@@ -1,0 +1,16 @@
+p{  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    padding-left: 300px;
+}
+span{
+    color: gray;
+}
+button{
+    background-color: black;
+    border: none;
+}

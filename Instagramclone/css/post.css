@@ -1,0 +1,65 @@
+
+.content-box{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.profile-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile-bar{
+    display: flex;
+    flex-direction: row;
+}
+.profile-pic{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+.profile-name{
+    padding-left: 10px;
+}
+.posted-pic{
+    margin-top: 10px;
+    width: 500px;
+    border-radius: 5px;
+}
+.more-options{
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: color 0.2s;
+}
+.more-options:hover{
+    color: gray;
+}
+.text-box{
+    display: flex;
+    flex-direction: column;
+}
+.like-box{
+    display: flex;
+    justify-content: space-between;
+}
+.liked-by-message{
+    display: flex;
+}
+.liked-by-pic{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.more{
+    margin: 0px;
+}
+.reply{
+    margin-bottom: 0px;
+}
