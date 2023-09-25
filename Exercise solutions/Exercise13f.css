@@ -1,0 +1,54 @@
+p{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.outer-box{
+    display: flex;
+    flex-direction: column;
+}
+.tweet-section{
+    display: flex;
+    flex: 1;
+}
+.sentence-holder{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.profile-name{
+    font-weight: bold;
+}
+.profile-id-style{
+    color: rgb(177, 174, 174);
+}
+.comment-section{
+    margin-left: 67px;
+    display: flex;
+    border-color: rgb(209, 206, 206);
+    border-width: 1px;
+  
+}   
+.image{
+    object-fit: cover;
+    width:60px;
+    height: 60px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.blured-box{
+    width: 80px;
+    height: 80px;
+    background-color:rgb(209, 206, 206);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.comment{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-color: rgb(209, 206, 206);
+    border-width: 1px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
