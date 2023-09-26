@@ -1,0 +1,16 @@
+.right-tab-div{
+    margin-right: 100px;
+}
+
+.myaccount-pic-style{
+    width: 50px;
+}
+.myaccount{
+    display: flex;
+    width: 350px;
+    align-items: center;
+}
+.myaccount-name-pic-holder{
+    display: flex;
+    align-items: center;
+}
