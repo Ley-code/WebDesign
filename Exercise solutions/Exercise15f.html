@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .image-holder{
+                display: inline-block;
+    
+                position: relative;
+            }
+            .image-holder di{
+                display: flex;
+                background-color: rgb(215, 66, 66);
+                color: white;
+                position: absolute;
+                top: 8px;
+                right: 0px;
+                padding: 5px;
+
+            }
+            .price{
+                display: flex;
+                background-color: rgb(215, 66, 66);
+                color: white;
+                position: absolute;
+                top: 8px;
+                right: 0px;
+                padding: 5px; 
+            }
+            img{
+                width: 400px;
+                height: 250px;
+                object-fit: cover;
+            }
+            .layer{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                right: 0px;
+                left: 0px;
+                bottom: 3px;
+                height: 80px;
+                background-color: rgba(202, 189, 189,0.4);
+            }
+            button{
+                padding: 6px 12px;
+                border: solid 2px;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="image-holder">
+            <img src="tshirt2.jpg">
+            <div class="price">
+                20% OFF
+            </div>
+            <div class="layer">
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </body>
+</html>
